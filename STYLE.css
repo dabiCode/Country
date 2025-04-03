@@ -2,3 +2,38 @@ body {
     background: url('Canada-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.home .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    margin-top: 430px;
+}
+.btn-box a {
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: rgba(205, 3, 3, 0.3);
+    backdrop-filter: blur(10px);
+    display: inline-flex;
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* CITY STYLE  */
+
+
+
+/* NATURE STLYE */
