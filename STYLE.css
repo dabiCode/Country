@@ -1,4 +1,4 @@
-body {
+.home-page {
     background: url('Canada-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
@@ -33,7 +33,67 @@ body {
 }
 
 /* CITY STYLE  */
-
-
+.City {
+    background: url('City-BG.jpg') no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.page-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px;
+    z-index: 100;
+}
+.City-Content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 1400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 300px;   
+}
+.City-Content h1 {
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
+.City-Content h2{
+    color: orangered;
+    text-align: left;
+    margin-left: 130px;
+    position: relative;
+    top: 30px;
+}
+.City-Content p {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    position: relative;
+    top: 15px;
+}
+.back-btn {
+    color: rgb(53, 5, 246);
+    font-size: 1.9rem;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.City-and-Food {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: left;
+    margin-top: 2rem;
+}
+.toronto-img {
+    max-width: 30%; 
+    border-radius: 10px;
+}
 
 /* NATURE STLYE */
