@@ -12,27 +12,26 @@
 .home .btn-box {
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    height: 50px;
-    margin-top: 430px;
+    width: 500px;
+    height: 150px;
+    margin-top: 850px;
 }
 .btn-box a {
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 200px;
     height: 100%;
     background: rgba(205, 3, 3, 0.3);
     backdrop-filter: blur(10px);
     display: inline-flex;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(249, 249, 249);
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 2px;
 }
-
-/* CITY STYLE  */
+/*CITY STYLE*/
 .City {
     background: url('City-BG.jpg') no-repeat center center/cover;
     position: relative;
@@ -46,54 +45,128 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 20px;
+    padding: 50px 150px;
     z-index: 100;
 }
 .City-Content {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
+    padding: 20rem; 
     border-radius: 15px;
-    max-width: 1400px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 2100px;
+    width: 1100%;
     text-align: center;
     margin-bottom: 300px;   
+    min-height: 900px; 
 }
 .City-Content h1 {
     color: red;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 50px;
+    position: relative;
+    top: -110px;
 }
-.City-Content h2{
+.City-Content h2 {
     color: orangered;
     text-align: left;
-    margin-left: 130px;
+    margin-left: 430px;
     position: relative;
-    top: 30px;
+    top: 50px;
+    font-size: 45px;
 }
 .City-Content p {
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Georgia, "Times New Roman", serif;
     position: relative;
     top: 15px;
 }
 .back-btn {
     color: rgb(53, 5, 246);
-    font-size: 1.9rem;
+    font-size: 3rem;
     text-decoration: none;
     padding: 5px 10px;
 }
-.City-and-Food {
+.toronto {
     display: flex;
     align-items: flex-start;
-    gap: 30px;
+    gap: 60px;
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
-.toronto-img {
-    max-width: 30%; 
+
+.city-img {
+    max-width: 50%;
     border-radius: 10px;
 }
+.vancouver {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.vancouver h2{
+    color: orangered;
+    text-align: left;
+    margin-left: 430px;
+    top: 1230px;
+    font-size: 45px;
+    position: absolute;
+}
+.vancouver-descript p{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", serif;
+    position: relative;
+    text-align: justify;
+}
+.quebec h2{
+    color: orangered;
+    text-align: left;
+    margin-left: 430px;
+    top: 2190px;
+    font-size: 45px;
+    position: absolute;
+}
+.quebec{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.quebec-descript p{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", serif;
+    position: relative;
+    text-align: justify;
+    top: -45px;
+}
+.montreal h2{
+    color: orangered;
+    text-align: left;
+    margin-left: 430px;
+    top: 3290px;
+    font-size: 45px;
+    position: absolute;
+}
+.montreal{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.montreal-descript p{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", serif;
+    position: relative;
+    text-align: justify;
+    top: -45px;
+}
+
 
 /* NATURE STLYE */
