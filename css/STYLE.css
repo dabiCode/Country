@@ -1,5 +1,5 @@
 .home-page {
-    background: url('Canada-bg.png') no-repeat center center fixed;
+    background: url('/assets/images/Canada-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
 .home {
@@ -33,7 +33,7 @@
 }
 /*CITY STYLE*/
 .City {
-    background: url('City-BG.jpg') no-repeat center center/cover;
+    background: url('/assets/images/City-BG.jpg') no-repeat center center/cover;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -61,7 +61,7 @@
 .City-Content h1 {
     color: red;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 80px;
     position: relative;
     top: -110px;
 }
@@ -72,7 +72,7 @@
     position: relative;
     top: 50px;
     font-size: 45px;
-}
+}   
 .City-Content p {
     color: black;
     font-weight: bold;
@@ -109,7 +109,7 @@
     color: orangered;
     text-align: left;
     margin-left: 430px;
-    top: 1230px;
+    top: 1330px;
     font-size: 45px;
     position: absolute;
 }
@@ -125,7 +125,7 @@
     color: orangered;
     text-align: left;
     margin-left: 430px;
-    top: 2190px;
+    top: 2290px;
     font-size: 45px;
     position: absolute;
 }
@@ -148,7 +148,7 @@
     color: orangered;
     text-align: left;
     margin-left: 430px;
-    top: 3290px;
+    top: 3390px;
     font-size: 45px;
     position: absolute;
 }
@@ -167,6 +167,125 @@
     text-align: justify;
     top: -45px;
 }
-
+.food-content h1{
+    color: rgb(21, 43, 114);
+    top: 10px;
+    font-size: 80px;
+}
+.poutine-descript p {
+    text-align: justify;
+}
+.poutine-descript h2 {
+margin-left: 10px;
+font-size: 70px;
+color: rgb(21, 43, 114);
+}
+.lobsterroll h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 5990px;
+}
+.lobsterroll {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+    
+}
+.food-img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+.lobsterroll-descript p {
+    text-align: justify;
+}
+.pea_soup h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 6590px;
+}
+.pea_soup {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.peasoup-descript{
+    text-align: justify;
+}
+.Boudin_Noir h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 7130px;
+}
+.Boudin_Noir{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.BoudinNoir-descript{
+    text-align: justify;
+}
+.Maple_Taffy h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 7680px;
+}
+.Maple_Taffy{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.MapleTaffy-descript{
+    text-align: justify;
+}
+.Rouladen h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 8240px;
+}
+.Rouladen{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.Rouladen-descript{
+    text-align: justify;
+}
+.SugarPie h2{
+    color: rgb(21, 43, 114);
+    text-align: left;
+    margin-left: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 8780px;
+}
+.SugarPie{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 15rem;
+    gap: 60px;
+}
+.SugarPie-descript{
+    text-align: justify;
+}
 
 /* NATURE STLYE */
