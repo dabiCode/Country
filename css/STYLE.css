@@ -288,4 +288,134 @@ color: rgb(21, 43, 114);
     text-align: justify;
 }
 
-/* NATURE STLYE */
+
+/* Nature TYLE */
+body.nature-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: rgba(2, 170, 86, 0.5);
+    color: #333;
+}
+
+.nature-header {
+    background: url('/assets/images/Nature-BG.jpg') no-repeat center center/cover;
+    height: 100px;
+    width: 1000px;
+    right: -1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.nature-header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.national {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.National-Park .nature-text h2 {
+    font-size: 80px;
+    margin-bottom: 1px;
+    color: darkgreen;
+}
+.National-Park .nature-text p {
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.nature-section {
+    margin: 50px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nature-section img {
+    width: 55%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+.wildlife-text h2{
+    font-size: 45px;
+    color: darkgreen;
+    font-weight: bold;
+    top: -35px;
+    position: relative;
+}
+.wildlife-text p{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+    bottom: 50px;
+    position: relative;
+}
+.outdoor-text h2{
+    font-size: 45px;
+    color: darkgreen;
+    font-weight: bold;
+    top: -35px;
+    position: relative;
+}
+.outdoor-text p{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+    bottom: 50px;
+    position: relative;
+}
+
+.nature-text {
+    font-size: 50px;
+}
+
+.nature-text h2 {
+    color: #2a7f62;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.nature-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;   
+    position: relative;  
+}
+.map-text h2 {
+    top: -800px;
+    font-size: 42px;
+    color: darkgreen;
+    text-align: center;
+    position: relative;
+}
+.map-text p {
+    font-size: 40px;
+    text-align: justify;
+    position: relative;
+    bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: rgba(2, 170, 86, 0.5);  
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
